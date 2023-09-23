@@ -141,3 +141,26 @@ ul {
     display: flex;
     flex-direction: column;
 }
+
+
+
+.thirdcontainer {
+    background-color: #E5E7EB;
+    color: white;
+    height: 430px;
+    
+}
+
+.invisiblecontainer3 {
+    margin: 0px auto;
+    width: 760px;
+}
+
+.quotecontainer{
+    display: flex;
+}
+
+.quotetext{
+    
+}
+
