@@ -7,7 +7,7 @@
     
 }
 
-.invisiblecontainer {
+.invisiblecontainer1 {
     margin: 0px auto;
     width: 900px;
 }
@@ -92,4 +92,52 @@ ul {
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+
+
+.secondcontainer {
+    background-color: white;
+    color: white;
+    height: 450px;
+    
+}
+
+.invisiblecontainer2 {
+    margin: 0px auto;
+    width: 800px;
+}
+
+.somerandominfo{
+    font-size: 36px;
+    font-weight: 800;
+    color: #1F2937;
+    text-align: center;
+    margin-top: 48px;
+}
+
+.cardcontainer{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 32px;
+}
+
+.card{
+    height: 160px;
+    width: 160px;
+    border: #3882F6 solid 4px;
+    border-radius: 16px;
+}
+
+.cardtext{
+    color: #1F2937;
+    text-align: center;
+    text-wrap: wrap;
+    width: 160px;
+    margin-top: 12px;
+}
+
+.cardtextcontainer{
+    display: flex;
+    flex-direction: column;
 }
