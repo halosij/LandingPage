@@ -148,19 +148,103 @@ ul {
     background-color: #E5E7EB;
     color: white;
     height: 430px;
-    
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .invisiblecontainer3 {
     margin: 0px auto;
     width: 760px;
+    
 }
 
 .quotecontainer{
     display: flex;
+    flex-direction: column;
 }
 
 .quotetext{
-    
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
 }
+
+.quotesayer {
+    font-weight: bold;
+    color: #1F2937;
+    align-self: flex-end;
+}
+
+
+
+.forthcontainer {
+    background-color: white;
+    color: white;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.invisiblecontainer4 {
+    margin: 0px auto;
+    width: 900px;   
+}
+
+.bluebox{
+    border: #3882F6 solid 4px;
+    background-color: #3882F6;
+    height: 120px;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.centeritemsbluebox{
+    display: flex;
+    justify-content: space-between;
+    width: 675px;
+}
+
+.signupbig{
+    width: 120px;
+    height: 40px;
+    background-color: transparent;
+    color: #F9FAF8;
+    font-size: 16px;
+    font-weight: bold;
+    border: white solid 2px;
+    text-align: center;
+    border-radius: 12px;
+}
+
+.calltoaction {
+    font-weight: bolder;
+    font-size: 20px;
+}
+
+
+
+.fifthcontainer{
+    background-color: #1F2937;
+    height: 90px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.invisiblecontainer5 {
+    width: 400px;
+    display: flex;
+    justify-content: center;
+    margin: 0px auto;
+}
+
+.copyright {
+    color: #E5E7EB;
+    font-size: 16px;
+}
+
 
